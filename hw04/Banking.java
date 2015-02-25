@@ -47,5 +47,12 @@ public class Banking {
             case "vb": System.out.println("Your balance is " + iBalance);
             break;
         }
+        double z = 3.0, y = 2.4;
+        int x = 2;
+        
+        z = x+y;
+        x=z;
+        z -= x+y;
+        
     }
 }
