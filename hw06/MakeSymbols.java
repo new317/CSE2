@@ -15,7 +15,7 @@ public class MakeSymbols { //gimme dat public class
         
         int test = randomNumber%2; //test if number is even or odd
         
-        System.out.println("Randomly generated number " + randomNumber //print the random number big boi
+        System.out.println("Randomly generated number " + randomNumber); //print the random number big boi
         
         if (test == 0){ //if number is even 
             do {
