@@ -7,24 +7,20 @@
 //import java.util.Scanner;
 
 public class Factorials {
-  public static void main (String [] args){
-   int i = 1;
-   int j = 0;
-   String number;
-   int wave = 1;
-   for (i = 1; i <=8; i = i*2){
-        j++;
-        number = "";
-        System.out.println("J: " + j);
-        for (wave = 1; wave <=j; wave++){
-            number += i;
-            System.out.println(number);
+  public static void main( String args[] ){
+    for (int i = 2; i <5; i++){
+        for (int j=0;j<i; j++){
+            for (int wave = 0; wave <=j; wave++){
+                String word = "b";
+                System.out.print(word);
+                word += "b";
+            }
+            System.out.println();
         }
-   }
+        
+    }
     }
 }
-
-
         //System.out.println("Enter an integer brody");
         //Scanner scan = new Scanner(System.in);
         //int superFactorial = scan.nextInt();
