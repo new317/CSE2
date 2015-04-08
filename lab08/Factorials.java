@@ -4,23 +4,31 @@
 //Practice calling those methods 
 //Print out the super factorial bruh 
 //Follow me on twitter @NEWestwood
-//import java.util.Scanner;
 
+import java.util.Scanner;
 public class Factorials {
-  public static void main( String args[] ){
-    for (int i = 2; i <5; i++){
-        for (int j=0;j<i; j++){
-            for (int wave = 0; wave <=j; wave++){
-                String word = "b";
-                System.out.print(word);
-                word += "b";
-            }
-            System.out.println();
-        }
-        
-    }
+    public static void main (String [] args){
+       int i = 0;
+       int j = 0;
+       int k = 0;
+      for (i=1; i<9; i=i*2){
+          for (j=1; j<=i; j=j*2){
+              for (k=1; k<=j; k=k*2){
+                  System.out.print(i);
+              }
+          
+              System.out.println("");
+          }
+      }
     }
 }
+ 
+
+
+
+
+
+
         //System.out.println("Enter an integer brody");
         //Scanner scan = new Scanner(System.in);
         //int superFactorial = scan.nextInt();

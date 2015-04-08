@@ -4,7 +4,7 @@
 //Print the waves out with those numbers bruh
 
 import java.util.Scanner; //import da scanner
-public class Waves {
+public class waves {
     //public class 
     public static void main (String [] args){
         //dat main method boi
